@@ -262,7 +262,7 @@ paths:
             $ref: '#/definitions/Response'
       security:
       - token: []
-  /blog/all:
+  /blogs/all:
     get:
       tags:
       - Blog
