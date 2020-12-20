@@ -135,8 +135,9 @@ body:{}
 //获取成功
 {
 	"state":true,
-	"response":{
-        { //一个json 所有博客的信息
+	"response":[
+		{
+         //一个json 所有博客的信息
 		"BlogID":"dagwewewfcwfedcwe",
 		"AuthorID":"32183921@qq.com",
         "AuthorName":"PmlPml",
@@ -153,10 +154,9 @@ body:{}
 			"title":"测试文章",
 			"abstract":"12312312",
 			"content":"hellow world"
-		},
-    }
+		}
+	]
 }
-c
 //获取失败
 {
 	"state":false,
