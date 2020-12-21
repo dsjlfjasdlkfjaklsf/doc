@@ -38,7 +38,12 @@
 
 ## 个人报告
 [17345021-何泽豪](./何泽豪.md)
+
 [18342045-李浩](./李浩.md)
+
+[18342109 徐浩添](./徐浩添.md)
+
+
 
 ## 仓库说明
 
@@ -76,3 +81,45 @@ go run main.go
 其中，我已经使用`swaggerHub`注入了一些调用的返回值的例子，所以这个静态页面中的API是可以调用的，执行其中一个API的结果如图：
 
 ![2](https://gitee.com/xinghanting/image/raw/master/ServiceComputing/homework9/2.png)
+
+## 项目运行样例
+
+在按照
+
+[Go Server for our Blog System](https://github.com/dsjlfjasdlkfjaklsf/go-server)
+
+[blog-web](https://github.com/dsjlfjasdlkfjaklsf/web)
+
+配置好了之后，就可以访问`localhost:8000`查看本次项目运行的结果了。
+
+首先进入的是登录页面
+
+![4](https://gitee.com/xinghanting/image/raw/master/ServiceComputing/homework9/4.png)
+
+点击注册按钮，可以跳转到注册页面
+
+![5](https://gitee.com/xinghanting/image/raw/master/ServiceComputing/homework9/5.png)
+
+登录之后，进入的是`public Blog`页面，在这个页面可以查看所有人发布的博客。
+
+![6](https://gitee.com/xinghanting/image/raw/master/ServiceComputing/homework9/6.png)
+
+这里面的博客是之前学习的区块链的资料，发布在[CSDN](https://blog.csdn.net/lianquan_cn/article/details/81565638)上，是公开的信息。
+
+点击查看按钮，可以跳转到查看该博客的页面
+
+![7](https://gitee.com/xinghanting/image/raw/master/ServiceComputing/homework9/7.png)
+
+![8](https://gitee.com/xinghanting/image/raw/master/ServiceComputing/homework9/8.png)
+
+在博客的最下面，可以发布评论。
+
+也可以自己发布博客，分别是标题、摘要和正文
+
+![9](https://gitee.com/xinghanting/image/raw/master/ServiceComputing/homework9/9.png)
+
+最后发布成功的结果会显示出来
+
+![10](https://gitee.com/xinghanting/image/raw/master/ServiceComputing/homework9/10.png)
+
+这就是本次项目运行的大致成果，更多细节可以在本机上运行代码。
