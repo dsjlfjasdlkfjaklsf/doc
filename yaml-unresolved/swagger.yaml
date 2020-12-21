@@ -269,7 +269,7 @@ paths:
             $ref: '#/definitions/Response'
       security:
       - token: []
-  /blogs/all:
+  /blogs:
     get:
       tags:
       - Blog
@@ -289,7 +289,7 @@ paths:
                 type: array
                 items:
                    $ref: '#/definitions/Blog'
-  /blog/{ID}/all:
+  /blogs/{UserID}:
     get:
       tags:
       - Blog
@@ -298,7 +298,7 @@ paths:
       produces:
       - application/json
       parameters:
-      - name: ID
+      - name: UserID
         in: path
         description: UserID
         required: true
